@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<!-- The set of sanity tests to execute on the system -->
+
+<suite name="Homework 1">
+
+    <parameter name="browser" value="firefox"/>
+
+    <test name="Unsuccessful">
+        <classes>
+           <class name="Unsuccessful"/>
+        </classes>
+    </test>
+</suite>
