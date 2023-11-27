@@ -5,9 +5,9 @@
 
     <parameter name="browser" value="firefox"/>
 
-    <test name="Unsuccessful">
+    <test name="Successful">
         <classes>
-           <class name="Unsuccessful"/>
+           <class name="tests.Successful"/>
         </classes>
     </test>
 </suite>
