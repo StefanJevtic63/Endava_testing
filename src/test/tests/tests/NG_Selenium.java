@@ -1,3 +1,5 @@
+package tests;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +15,7 @@ import java.time.Duration;
 
 import static org.testng.Assert.assertEquals;
 
-public class TestNG6Selenium {
+public class NG_Selenium {
 
     private WebDriver driver = null;
 
