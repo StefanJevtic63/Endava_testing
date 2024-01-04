@@ -51,7 +51,7 @@
     <build>
         <resources>
             <resource>
-                <directory>src/test/resources</directory>
+                <directory>Selenium/src/test/resources</directory>
                 <filtering>true</filtering>
             </resource>
         </resources>
@@ -81,9 +81,9 @@
                 <version>${maven.failsafe.version}</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/suite_successful_login.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/suite_unsuccessful_login.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/suite_selenium.xml</suiteXmlFile>
+                        <suiteXmlFile>Selenium/src/test/resources/suite_successful_login.xml</suiteXmlFile>
+                        <suiteXmlFile>Selenium/src/test/resources/suite_unsuccessful_login.xml</suiteXmlFile>
+                        <suiteXmlFile>Selenium/src/test/resources/suite_selenium.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <executions>
